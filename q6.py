@@ -4,6 +4,7 @@ import numpy as np
 
 def question06(numServers, targetServer, times):
   # modify and then return the variable below
+  times=np.array(times)
   if(targetServer==0):
       answer=0
   else :
